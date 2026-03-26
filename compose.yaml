@@ -88,7 +88,7 @@ services:
    file: compose_zabbix_components.yaml
    service: java-gateway
   image: "${ZABBIX_JAVA_GATEWAY_IMAGE}:${ZBX_IMAGE_TAG}"
-   container_name: zabbix-java-gateway
+  container_name: zabbix-java-gateway
   labels:
    com.zabbix.os: "${OS}"
 
